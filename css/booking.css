@@ -1,4 +1,111 @@
-*{
-    padding: 0;
-    margin: 0;
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/first_eval/images/bookingbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
 }
+
+*:focus {outline:none !important}
+
+.booking{
+    max-width: 500px;
+    border: 5px solid #ced4da;
+    margin: 5% auto;
+    height: 37%;
+}
+
+.booking-form{
+    padding: 0 20px 20px;
+}
+
+.booking-form label{
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-size: 30px;
+    color: #fff;
+    align-items: center;
+}
+
+.booking .input-grp{
+
+    transform: translateY(20px);
+}
+
+.booking .radio-btn{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+
+.age .inp{
+    margin-top: 38px;
+    margin-left: 85px;
+    height: 30px;
+    width: 189px;
+}
+
+
+.email .in{
+    margin-left: 50px;
+}
+
+.phone .i{
+    margin-left: 45px;
+}
+
+.book{
+    background-color: rgba(44, 204, 71, 0.8);
+    font-weight: 200px;
+}
+
+.booking-form small{
+    display: flex;
+    color: red;
+    font-size: 15px;
+}
+
+#add{
+    scroll-behavior: smooth;
+    background-color: rgba(44, 204, 71, 0.8);
+    font-weight: 200px;
+    transform: translateX(10px);
+}
+
+
+.booking-form2 label{
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-size: 30px;
+    color: #fff;
+    align-items: center;
+}
+
+.booking2 .radio-btn{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.booking2{
+    max-width: 500px;
+    border: 5px solid #ced4da;
+    margin: 5% auto;
+    height: 37%;
+}
+
+.booking-form2{
+    padding: 0 10px 20px;
+}
+
+
+
+
+
+
+
+

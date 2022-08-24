@@ -1,0 +1,74 @@
+body{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(/first_eval/images/confirmationbg.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 140vh;
+    background-blend-mode: lighten;
+}
+
+.bd{
+    
+    /* margin: 30px; */
+    justify-content: center;
+    margin: 220px 500px 20px 500px;
+    padding: 4%;
+}
+
+.b{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    border: solid;
+    background-color:bisque;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    color: aquamarine;
+}
+
+.container {
+    height: 0px;
+    position: relative;
+    
+  }
+  
+  .center {
+    margin-top: 1px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: black;
+  }
+
+  #leftbox {
+    float:left; 
+    background-color: blanchedalmond;
+    width:25%;
+    
+    
+}
+#middlebox{
+    float:left; 
+    background-color: blanchedalmond;
+    width:50%;
+    
+}
+#rightbox{
+    float:right;
+    background-color: blanchedalmond;
+    width:25%;
+    
+    
+}
+
+.details{
+    display: flex;
+}

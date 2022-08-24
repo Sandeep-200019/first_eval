@@ -8,7 +8,7 @@ f_details.then(response=>response.json()).then(data=>{
         let obj = data[i];
         var container = document.createElement("div");
         container.className="card text-white bg-dark mb-3";
-        container.style.width="15rem";
+        container.style.width="17rem";
 
         var hd = document.createElement("div");
         hd.className = "card-header";
@@ -44,6 +44,8 @@ f_details.then(response=>response.json()).then(data=>{
         book.className = "btn btn-primary";
         book.innerHTML = "Book";
         book.style.color = "white";
+        book.setAttribute('id',obj.id);
+        book.setAttribute('onClick','openpage(this.id)');
 
 
 
@@ -68,3 +70,11 @@ f_details.then(response=>response.json()).then(data=>{
 
 
 });
+
+function openpage(id)
+{
+    console.log(id);
+    var flnum = id;
+    localStorage.setItem("flid", flnum);
+    window.location.href = "booking.html";
+}
